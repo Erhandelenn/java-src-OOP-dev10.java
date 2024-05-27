@@ -6,10 +6,10 @@ public final class Student {
     public Student(String ad, String soyad) {
 
         if (ad == null || ad.isEmpty()) {
-            System.out.println("Ad boş olamaz.");
+            throw new IllegalArgumentException("Ad boş olamaz.");
         }
         if (soyad == null || soyad.isEmpty()) {
-            System.out.println("Soyad boş olamaz.");git checkout -b student
+            throw new IllegalArgumentException("Soyad boş olamaz.");
         }
         this.ad = ad;
         this.soyad = soyad;
