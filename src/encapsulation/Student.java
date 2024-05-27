@@ -9,7 +9,7 @@ public final class Student {
             System.out.println("Ad boş olamaz.");
         }
         if (soyad == null || soyad.isEmpty()) {
-            System.out.println("Soyad boş olamaz.");
+            System.out.println("Soyad boş olamaz.");git checkout -b student
         }
         this.ad = ad;
         this.soyad = soyad;
