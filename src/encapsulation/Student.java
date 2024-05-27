@@ -6,10 +6,10 @@ public final class Student {
     public Student(String ad, String soyad) {
 
         if (ad == null || ad.isEmpty()) {
-            System.out.println("Ad boş veya null olamaz.");
+            System.out.println("Ad boş olamaz.");
         }
         if (soyad == null || soyad.isEmpty()) {
-            System.out.println("Soyad boş veya null olamaz.");
+            System.out.println("Soyad boş olamaz.");
         }
         this.ad = ad;
         this.soyad = soyad;
